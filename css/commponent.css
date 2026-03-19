@@ -1,0 +1,63 @@
+/* 아이콘 이름 */
+/* <span></span> */
+/* component.클래스{} */
+
+/* --top bar 아이콘 -- */
+/* 언어 아이콘 */
+/* <span class="lang Material-Symbols-Rounded">language</span> */
+/* .component .lang {}*/
+.commponent .lang {
+  font-size: 18px;
+  font-weight: 300px;
+  color: #fff;
+  transition: 0.6s;
+}
+
+.commponent .top-bar:hover .lang{
+  color: #121212;
+}
+/* 슬라이드 화면 전환 ui */
+.prev-next-box {
+	/* border: 1px solid pink; */
+	display: inline-flex;
+	gap: 15px;
+}
+.slide-icon {
+	border: 1px solid #fff;
+	width: 58px;
+	height: 58px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  cursor: pointer;
+}
+
+/* 이전(prev) */
+/* <span class="material-symbols-outlined">arrow_left_alt</span> */
+.commponent .prev{
+  font-size: 24px; color: #fff;
+}
+
+/* 다음(next) */
+/* <span class="material-symbols-outlined">arrow_right_alt</span> */
+.commponent .next{
+  font-size: 24px; color: #fff;
+}
+
+/* 플로팅 버튼(위로가기 ui) */
+.top-btn {
+	border: 2px solid #2b4347;
+	display:inline-flex;
+	width:100px;
+	height:100px;
+	border-radius:100px;
+	align-items:center;
+	justify-content:center;
+	cursor:pointer;
+	/* 띄워서 우측 하단에 고정 */
+	position: fixed;
+	z-index: 2;
+	right: 20px;
+	bottom: 20px;
+}
